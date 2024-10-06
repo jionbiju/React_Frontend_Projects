@@ -1,0 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: rgb(255,23,102);
+  background: linear-gradient(90deg, rgba(255,23,102,1) 0%, rgba(152,10,63,1) 0%, rgba(16,161,255,1) 73%, rgba(0,147,255,1) 99%);
+  font-family: 'poppins';
+}
