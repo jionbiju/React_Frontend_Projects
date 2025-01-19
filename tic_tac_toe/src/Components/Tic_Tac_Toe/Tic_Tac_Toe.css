@@ -1,0 +1,51 @@
+.container{
+   text-align: center;
+    
+}
+.title{
+    display: flex;
+    color: white;
+    font-size: 55px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 37px;
+}
+.btn{
+    align-items: center;
+    width: 200px;
+    height: 70px;
+    margin-top: 20px;
+    background: #1f3540;
+    color: #26ffcb;
+    font-size: 26px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+.box{
+    display: flex;
+    background: #1f3540;
+    cursor: pointer;
+    border: 1px solid #0f1b21;
+    width: 180px;
+    height: 180px;
+    border-radius: 15px;
+
+}
+.board{
+    display: flex;
+    margin: auto;
+    width: 600px;
+    height: 564px;
+    margin-top: 30px;
+}
+.box img{
+    margin: 55px 55px;
+}
+.title img{
+    padding: 20px 20px;
+    height: 50px;
+}
