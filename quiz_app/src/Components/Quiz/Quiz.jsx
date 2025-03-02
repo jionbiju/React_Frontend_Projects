@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react'
 import './Quiz.css'
 import { data } from '../../Assets/data'
-const Quiz = () => {
+const Quiz = (props) => {
     let [index,setIndex] = useState(0);
     let [content,setContent] = useState(data[index]);
     let [lock,setLock] = useState(false);
@@ -55,17 +55,21 @@ const Quiz = () => {
         }
     }
 
+    const goBack = () => {
+        props.setTopic(null);
+    }
   return (
     <div className='container'>
         <div className="header">
             <div className="title"> Quiz App</div>
+            <div className="subtitle">Topic:{props.topic}</div>
             <div className="underline"></div>
         </div>
         {result?<></>:
             <>
             <div className="question">
             <h2>{index+1}.{content.question}?</h2>
-        </div>
+            </div>
         <div className="options">
             <ul>
                 <li ref={option1} onClick={(e)=>{ansCheck(e,1)}}>{content.option1}</li>
@@ -74,8 +78,12 @@ const Quiz = () => {
                 <li ref={option4} onClick={(e)=>{ansCheck(e,4)}}>{content.option4}</li>
             </ul>
         </div>
-        <div className="next-btn" onClick={next}>Next</div>
+        <div className="footer">
+        <div className="go-back" onClick={goBack}>Back to Home</div>
         <div className="index">{index+1} of {data.length} questions</div>
+        <div className="next-btn" onClick={next}>Next</div>
+        </div>
+        
         </>
         }
         {result?<div className="result">

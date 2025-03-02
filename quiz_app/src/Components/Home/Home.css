@@ -1,0 +1,64 @@
+.container-home{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 30px;
+    background: rgb(211, 206, 206);
+    width: 650px;
+    height: 600px;
+    border-radius: 15px;
+    padding-bottom: 40px;
+}
+.header-home{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+}
+.topic-selection {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+.topic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    height: 120px;
+    border: solid 1px black;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.topic:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.topic.science {
+    background-image: url('../../Assets/science.png');
+    background-size: cover;
+    background-position: center;
+}
+.topic.history {
+    background-image: url('../../Assets/history.png'); 
+    background-size: cover;
+    background-position: center;
+}
+.topic.maths {
+    background-image: url('../../Assets/maths.png'); 
+    background-size: cover;
+    background-position: center;
+}
+.topic.sports {
+    background-image: url('../../Assets/sports.png'); 
+    background-size: cover;
+    background-position: center;
+}

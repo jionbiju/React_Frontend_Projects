@@ -24,7 +24,7 @@ export const data = [
       ans: 2,
     },
     {
-      question: "What is the capital of Japan??",
+      question: "What is the capital of Japan?",
       option1: "Beijing",
       option2: "Seoul",
       option3: "Tokyo",
