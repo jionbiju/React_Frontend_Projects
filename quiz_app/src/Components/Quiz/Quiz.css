@@ -14,7 +14,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 4px;
     margin-top: 20px;
 }
 .title{
@@ -22,9 +22,15 @@
     font-weight: 700;
 }
 .subtitle{
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 500;
-   margin-bottom: 15px;
+    
+}
+.timer{
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+    padding-bottom: 10px;
 }
 .underline{
     align-items: center;
@@ -36,13 +42,13 @@
 .question{
     margin-top: 20px;
     display: flex;
-    margin-left: 44px;
+    margin-left: 42px;
 }
 .question h2{
-    font-size: 24px;
+    font-size: 22px;
 }
 .options{
-    padding-top: 20px;
+    padding-top: 15px;
     align-items: center;
     padding-left:40px;
     
