@@ -87,7 +87,7 @@ const Quiz = (props) => {
         {result?<></>:
             <>
             <div className="question">
-            <h2>{index+1}.{content.question}?</h2>
+            <h2>{index+1}.{content.question}</h2>
             </div>
         <div className="options">
             <ul>
@@ -107,7 +107,10 @@ const Quiz = (props) => {
         }
         {result?<div className="result">
             <h2>You have scored {score} out of {filterData.length}</h2>
+            <div className="end-button">    
+            <div className="go-back" onClick={goBack}>Back to Home</div>
             <div onClick={reset} className="next-btn">Reset</div>
+            </div>
         </div>:<></>}
     </div>
   )
