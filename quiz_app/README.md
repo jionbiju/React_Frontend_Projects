@@ -6,19 +6,23 @@ The Quiz App is a React-based application that allows users to select a quiz top
 
 ### Features
 
-Home Page: Allows users to select a quiz topic.
+- **Home Page:** Allows users to select a quiz topic.  
+- **Timed Questions:** Each question has a countdown timer.  
+- **Auto-Skip:** If the timer reaches zero, the app automatically moves to the next question.  
+- **Score Display:** At the end of the quiz, the user is presented with their final score.  
 
-Timed Questions: Each question has a countdown timer.
+## 🚀 Live Demo  
+🔗 [Click here to try the Quiz App](https://myquizmaster.netlify.app/)  
 
-Auto-Skip: If the timer reaches zero, the app automatically moves to the next question.
+---
 
-Score Display: At the end of the quiz, the user is presented with their final score.
-<br>
+### Screenshots  
+
 <br>
 <img src="src\Assets\1.png" alt="screenshot1" width="600px">
 <br>
 <br>
-<img src="src\Assets\2.png" alt="screenshot1" width="600px">
+<img src="src\Assets\2.png" alt="screenshot2" width="600px">
 <br>
 <br>
-<img src="src\Assets\3.png" alt="screenshot1" width="600px">
+<img src="src\Assets\3.png" alt="screenshot3" width="600px">
