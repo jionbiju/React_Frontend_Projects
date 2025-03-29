@@ -106,12 +106,11 @@
     gap: 20px;
 }
 .footer{
-    margin-top: 40px;
+    margin-top: 10px;
     gap: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 35px;
 }
 .go-back{
     display: flex;
@@ -137,3 +136,152 @@
     margin-top: 10px;
     align-items: center;
 }
+
+
+@media (max-width: 1024px) {
+    .container {
+        margin-top: 20px;
+        width: 80%;
+        max-width: 550px;
+        min-height: 500px;
+        height: auto;
+    }
+    .options ul li {
+        width: 90%;
+        font-size: 13px;
+        height: 38px;
+    }
+    .title{
+        font-size: 35px;
+    }
+    .subtitle{
+        font-size: 23px;
+        font-weight: 500;
+    }
+    .question h2{
+        font-size: 20px;
+    }
+    .underline{
+        width: 85%;
+    }
+    .timer{
+        font-size: 18px;
+    }
+    .go-back {
+        width: 150px;
+        font-size: 17px;
+        height: 35px;
+    }
+    .next-btn{
+        width: 90px;
+        font-size: 17px;
+        height: 35px;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .container {
+        margin-top: 25px;
+        width: 600px;
+        max-width: 500px;
+        max-height: 700px;
+    }
+    
+    .title {
+        font-size: 28px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+    }
+    .underline{
+        margin-top: 5px;
+        width: 80%;
+    }
+    .question{
+        justify-content: start;
+        padding-left: 10px;
+    }
+
+    .question h2 {
+        font-size: 20px;
+    }
+
+    .options ul li {
+        width: 90%;
+        font-size: 13px;
+        height: 38px;
+    }
+
+    .go-back {
+        width: 140px;
+        font-size: 15px;
+    }
+    .next-btn{
+        width: 80px;
+        font-size: 15px;
+    }
+    .timer{
+        font-size: 17px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .container {
+        margin-top: 50px;
+        width:350px;
+        height: 500px;
+        max-width: 400px;
+        max-height: 600px;
+    }
+    
+    .title {
+        font-size: 25px;
+    }
+
+    .subtitle {
+        font-size: 18px;
+    }
+    .underline{
+        margin-top: 2px;
+        width: 80%;
+        height: 4px;
+    }
+    .question{
+        justify-content: start;
+        padding-left: 10px;
+    }
+
+    .question h2 {
+        font-size: 14px;
+    }
+
+    .options ul li {
+        width: 90%;
+        font-size: 13px;
+        height: 28px;
+    }
+
+    .go-back {
+        width: 99px;
+        font-size: 12px;
+        height: 35px;
+    }
+    .next-btn{
+        width: 70px;
+        font-size: 12px;
+        height: 35px;
+    }
+    .timer{
+        font-size: 15px;
+    }
+    .index{
+        font-size: 13px;
+    }
+    .result h2{
+        font-size: 18px;
+    }
+}
+

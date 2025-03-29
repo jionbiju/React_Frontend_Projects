@@ -1,8 +1,24 @@
-# React + Vite
+# Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+The Quiz App is a React-based application that allows users to select a quiz topic, answer timed questions, and receive a final score at the end. If a user does not select an answer before the timer runs out, the question is automatically skipped to the next one.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Features
+
+Home Page: Allows users to select a quiz topic.
+
+Timed Questions: Each question has a countdown timer.
+
+Auto-Skip: If the timer reaches zero, the app automatically moves to the next question.
+
+Score Display: At the end of the quiz, the user is presented with their final score.
+<br>
+<br>
+<img src="src\Assets\1.png" alt="screenshot1" width="600px">
+<br>
+<br>
+<img src="src\Assets\2.png" alt="screenshot1" width="600px">
+<br>
+<br>
+<img src="src\Assets\3.png" alt="screenshot1" width="600px">
