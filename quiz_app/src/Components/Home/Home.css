@@ -6,7 +6,7 @@
     background: rgb(211, 206, 206);
     width: 650px;
     height: 600px;
-    border-radius: 30px;
+    border-radius: 15px;
     padding-bottom: 40px;
 }
 .header-home{
@@ -138,5 +138,16 @@
         font-size: 15px;
     }
 
+}
+@media (max-width:380px){
+    .container-home{
+        width: 90%;
+        height: 400px;
+        margin-top: 90px;
+    }
+    .topic-selection{
+        margin-top: 45px;
+        margin-right: 80px;
+    }
 }
 

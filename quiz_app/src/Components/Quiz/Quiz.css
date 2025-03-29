@@ -285,3 +285,31 @@
     }
 }
 
+@media (max-width: 380px){
+    .container{
+        width: 90%;
+        margin-top: 70px;
+    }
+    .go-back {
+        width: 93px;
+        font-size: 12px;
+        height: 33px;
+    }
+    .next-btn{
+        width: 65px;
+        font-size: 12px;
+        height: 33px;
+    }
+    .options ul li {
+        margin-left: 0px;
+        width:  90%;
+        font-size: 13px;
+        height: 28px;
+    }
+    .question{
+        margin-left: 15px;
+    }
+    .options{
+        margin-left: -15px;
+    }
+}
